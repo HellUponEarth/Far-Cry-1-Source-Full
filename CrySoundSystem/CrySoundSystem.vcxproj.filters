@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{69a995ab-b004-407d-912b-26bf88ac433f}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{1735172e-7d3c-4024-87a3-743c53e2a7b1}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{49e29464-84f1-485c-91bc-dde8c5f83653}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="DynamicMusic">
+      <UniqueIdentifier>{5133be01-e8bb-43b8-a8dd-45dc926b83ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DynamicMusic\Pattern">
+      <UniqueIdentifier>{b2c9f0ab-85f5-464b-8d37-29ab9ebaac62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DynamicMusic\Pattern\Decoder">
+      <UniqueIdentifier>{ef7c2e1e-e0dd-418b-a352-4f102f0fc087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DynamicMusic\Pattern\Decoder\WAV">
+      <UniqueIdentifier>{14e75905-75e8-4901-884d-6056eda47bfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DynamicMusic\Pattern\Decoder\OGG">
+      <UniqueIdentifier>{3d4db603-2546-46e4-b9f4-0f0f5af92f35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DynamicMusic\Pattern\Decoder\OGG\OggVorbisInclude">
+      <UniqueIdentifier>{939b0f22-fc0f-4b62-9f00-5551adc1a404}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DynamicMusic\Pattern\Decoder\OGG\OggVorbisInclude\Ogg">
+      <UniqueIdentifier>{1f3e44fc-6947-47e6-b7ac-c617cb7948d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DynamicMusic\Pattern\Decoder\OGG\OggVorbisInclude\Vorbis">
+      <UniqueIdentifier>{72f1fe45-f2d2-4a1f-a989-fea618013708}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DynamicMusic\Pattern\Decoder\ADPCM">
+      <UniqueIdentifier>{4cba184d-2765-4244-b1ef-06515ff36d53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DynamicMusic\System">
+      <UniqueIdentifier>{cddb92f3-4368-4331-939a-52af7f709ece}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DynamicMusic\System\Dummy">
+      <UniqueIdentifier>{e9efa3cf-d306-40a3-8089-3a1066bf7d3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DynamicMusic\RandGen">
+      <UniqueIdentifier>{081052d3-b871-4eda-8d64-c4246d65217a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CrySoundSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundSystemCommon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicPattern.cpp">
+      <Filter>DynamicMusic\Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicPatternInstance.cpp">
+      <Filter>DynamicMusic\Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="PCMDecoder.cpp">
+      <Filter>DynamicMusic\Pattern\Decoder\WAV</Filter>
+    </ClCompile>
+    <ClCompile Include="OGGDecoder.cpp">
+      <Filter>DynamicMusic\Pattern\Decoder\OGG</Filter>
+    </ClCompile>
+    <ClCompile Include="ADPCMDecoder.cpp">
+      <Filter>DynamicMusic\Pattern\Decoder\ADPCM</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicSystem.cpp">
+      <Filter>DynamicMusic\System</Filter>
+    </ClCompile>
+    <ClCompile Include="RandGen.cpp">
+      <Filter>DynamicMusic\RandGen</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DummySound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicLoadSink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundSystemCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicPattern.h">
+      <Filter>DynamicMusic\Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicPatternInstance.h">
+      <Filter>DynamicMusic\Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="PatternDecoder.h">
+      <Filter>DynamicMusic\Pattern\Decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="PCMDecoder.h">
+      <Filter>DynamicMusic\Pattern\Decoder\WAV</Filter>
+    </ClInclude>
+    <ClInclude Include="OGGDecoder.h">
+      <Filter>DynamicMusic\Pattern\Decoder\OGG</Filter>
+    </ClInclude>
+    <ClInclude Include="OggVorbisInclude\ogg\ogg.h">
+      <Filter>DynamicMusic\Pattern\Decoder\OGG\OggVorbisInclude\Ogg</Filter>
+    </ClInclude>
+    <ClInclude Include="OggVorbisInclude\ogg\os_types.h">
+      <Filter>DynamicMusic\Pattern\Decoder\OGG\OggVorbisInclude\Ogg</Filter>
+    </ClInclude>
+    <ClInclude Include="OggVorbisInclude\vorbis\codec.h">
+      <Filter>DynamicMusic\Pattern\Decoder\OGG\OggVorbisInclude\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="OggVorbisInclude\vorbis\vorbisenc.h">
+      <Filter>DynamicMusic\Pattern\Decoder\OGG\OggVorbisInclude\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="OggVorbisInclude\vorbis\vorbisfile.h">
+      <Filter>DynamicMusic\Pattern\Decoder\OGG\OggVorbisInclude\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="ADPCMDecoder.h">
+      <Filter>DynamicMusic\Pattern\Decoder\ADPCM</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicSystem.h">
+      <Filter>DynamicMusic\System</Filter>
+    </ClInclude>
+    <ClInclude Include="DummyMusic.h">
+      <Filter>DynamicMusic\System\Dummy</Filter>
+    </ClInclude>
+    <ClInclude Include="RandGen.h">
+      <Filter>DynamicMusic\RandGen</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="crysound.lib" />
+  </ItemGroup>
+</Project>

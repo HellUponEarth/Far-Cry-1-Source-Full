@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{af0bcdab-f546-41d0-9510-15d622a559c9}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{c4a3c0a4-8760-44f4-bbc1-bb27b459434e}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="PunkBuster">
+      <UniqueIdentifier>{539874e3-7703-4701-b056-04118e8d6408}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{c12d8301-6288-49ea-9118-bf093e8d028f}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="UBIcom">
+      <UniqueIdentifier>{a6ea185f-2199-4313-be01-cff113370349}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CCPEndpoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientLocal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientStateMachine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CompressionHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CryNetwork.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CTPEndpoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CTPEndpointGNB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DatagramSocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DefenceWall.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NETServerSnooper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Network.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RConSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerSlot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerSnooper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerStateMachine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticCharCompressor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PunkBuster\pbcl.cpp">
+      <Filter>PunkBuster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PunkBuster\pbmd5.cpp">
+      <Filter>PunkBuster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PunkBuster\pbsdk.cpp">
+      <Filter>PunkBuster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PunkBuster\pbsv.cpp">
+      <Filter>PunkBuster</Filter>
+    </ClCompile>
+    <ClCompile Include="PunkBusterInterface.cpp">
+      <Filter>PunkBuster</Filter>
+    </ClCompile>
+    <ClCompile Include="NewUbisoftCDKey.cpp">
+      <Filter>UBIcom</Filter>
+    </ClCompile>
+    <ClCompile Include="NewUbisoftClient.cpp">
+      <Filter>UBIcom</Filter>
+    </ClCompile>
+    <ClCompile Include="NewUbisoftMSClient.cpp">
+      <Filter>UBIcom</Filter>
+    </ClCompile>
+    <ClCompile Include="NewUbisoftRegServer.cpp">
+      <Filter>UBIcom</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptObjectNewUbisoftClient.cpp">
+      <Filter>UBIcom</Filter>
+    </ClCompile>
+    <ClCompile Include="UbisoftMemory.cpp">
+      <Filter>UBIcom</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CCPEndpoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientLocal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientStateMachine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CNP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CompressionHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CTPEndpoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CTPEndpointGNB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DatagramSocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DefenceWall.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NETServerSnooper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Network.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PingCalculator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RConSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerSlot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerSnooper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerStateMachine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticCharCompressor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PunkBuster\pbcl.h">
+      <Filter>PunkBuster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PunkBuster\pbcommon.h">
+      <Filter>PunkBuster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PunkBuster\pbmd5.h">
+      <Filter>PunkBuster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PunkBuster\pbsdk.h">
+      <Filter>PunkBuster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PunkBuster\pbsv.h">
+      <Filter>PunkBuster</Filter>
+    </ClInclude>
+    <ClInclude Include="PunkBusterInterface.h">
+      <Filter>PunkBuster</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonDefines.h">
+      <Filter>UBIcom</Filter>
+    </ClInclude>
+    <ClInclude Include="NewUbisoftClient.h">
+      <Filter>UBIcom</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptObjectNewUbisoftClient.h">
+      <Filter>UBIcom</Filter>
+    </ClInclude>
+    <ClInclude Include="UbisoftMemory.h">
+      <Filter>UBIcom</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
